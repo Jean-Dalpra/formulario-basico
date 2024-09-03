@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atividade.css">
+</head>
+
+<body>
+    <div class="cadastro">
+        <form action="">
+            <fieldset>
+                <div class="first-child">
+                    <h1>Cadastro</h1>
+                    <div>
+                        <label for="name">Nome</label>
+                        <input class="barra a" type="text" name="Nome" id="Nome">
+                    </div>
+                    <div>
+                        <label for="name">Sobrenome</label>
+                        <input class="barra" type="text" name="Sobrenome" id="Sobrenome">
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input class="barra" type="email " name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="senha">Senha</label>
+                        <input class="barra" type="password" name="senha" id="senha">
+                    </div>
+                    <div>
+                        <label for="data">Data Nascimento</label>
+                        <input class="barra" type="date" name="data" id="data">
+                    </div>
+                    <div>
+                        <label for="comida">Comida Favorita:</label>
+                        <ul class="estilo">
+                            <li><input type="checkbox" name="comida[]" id="" value="">Hambúrger</li>
+                            <li><input type="checkbox" name="comida[]" id="" value="">Pizza</li>
+                            <li><input type="checkbox" name="comida[]" id="" value="">Sushi</li>
+                            <li><input type="checkbox" name="comida[]" id="" value="">Cachorro quente</li>
+                            <li><input type="checkbox" name="comida[]" id="" value="">Xis</li>
+                        </ul>
+                    </div>
+
+                    <label for="carac">Descreva suas caracteristicas:</label><br>
+                    <textarea style="resize: none;" class="barra" name="carac" id="carac" cols="30" rows="5"></textarea>
+
+                    <div>
+                        <label for="turno">Aceita os termos e cadastro:</label>
+                        <ul class="estilo">
+                            <li><input type="radio" name="turno" id="turno" value="Sim">Sim</li>
+                            <li><input type="radio" name="turno" id="turno" value="Não">Não</li>
+                        </ul>
+                    </div>
+                    <div > <input class="barra cadastrar" type="submit" value="cadastar"></div>
+                </div>
+                <div class="last-child">
+                    <img src="https://www.megalabor.com.br/images/formulario.png" alt="">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
